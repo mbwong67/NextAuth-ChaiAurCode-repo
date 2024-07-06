@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		923E53E42C36031D00C1B8E4 /* AryanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E53E32C36031D00C1B8E4 /* AryanApp.swift */; };
+		923E53E62C36031D00C1B8E4 /* AryanDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E53E52C36031D00C1B8E4 /* AryanDocument.swift */; };
+		923E53E82C36031D00C1B8E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E53E72C36031D00C1B8E4 /* ContentView.swift */; };
+		923E53EA2C36031E00C1B8E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923E53E92C36031E00C1B8E4 /* Assets.xcassets */; };
+		923E53EF2C36031E00C1B8E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923E53EE2C36031E00C1B8E4 /* Preview Assets.xcassets */; };
+		923E53F92C36031E00C1B8E4 /* AryanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E53F82C36031E00C1B8E4 /* AryanTests.swift */; };
+		923E54032C36031E00C1B8E4 /* AryanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E54022C36031E00C1B8E4 /* AryanUITests.swift */; };
+		923E54052C36031E00C1B8E4 /* AryanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923E54042C36031E00C1B8E4 /* AryanUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		923E53F52C36031E00C1B8E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923E53D82C36031D00C1B8E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 923E53DF2C36031D00C1B8E4;
+			remoteInfo = Aryan;
+		};
+		923E53FF2C36031E00C1B8E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923E53D82C36031D00C1B8E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 923E53DF2C36031D00C1B8E4;
+			remoteInfo = Aryan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		923E53E02C36031D00C1B8E4 /* Aryan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aryan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		923E53E32C36031D00C1B8E4 /* AryanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AryanApp.swift; sourceTree = "<group>"; };
+		923E53E52C36031D00C1B8E4 /* AryanDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AryanDocument.swift; sourceTree = "<group>"; };
+		923E53E72C36031D00C1B8E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		923E53E92C36031E00C1B8E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		923E53EB2C36031E00C1B8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		923E53EC2C36031E00C1B8E4 /* Aryan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aryan.entitlements; sourceTree = "<group>"; };
+		923E53EE2C36031E00C1B8E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		923E53F42C36031E00C1B8E4 /* AryanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AryanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		923E53F82C36031E00C1B8E4 /* AryanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AryanTests.swift; sourceTree = "<group>"; };
+		923E53FE2C36031E00C1B8E4 /* AryanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AryanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		923E54022C36031E00C1B8E4 /* AryanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AryanUITests.swift; sourceTree = "<group>"; };
+		923E54042C36031E00C1B8E4 /* AryanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AryanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		923E53DD2C36031D00C1B8E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923E53F12C36031E00C1B8E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923E53FB2C36031E00C1B8E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		923E53D72C36031D00C1B8E4 = {
+			isa = PBXGroup;
+			children = (
+				923E53E22C36031D00C1B8E4 /* Aryan */,
+				923E53F72C36031E00C1B8E4 /* AryanTests */,
+				923E54012C36031E00C1B8E4 /* AryanUITests */,
+				923E53E12C36031D00C1B8E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		923E53E12C36031D00C1B8E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				923E53E02C36031D00C1B8E4 /* Aryan.app */,
+				923E53F42C36031E00C1B8E4 /* AryanTests.xctest */,
+				923E53FE2C36031E00C1B8E4 /* AryanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		923E53E22C36031D00C1B8E4 /* Aryan */ = {
+			isa = PBXGroup;
+			children = (
+				923E53E32C36031D00C1B8E4 /* AryanApp.swift */,
+				923E53E52C36031D00C1B8E4 /* AryanDocument.swift */,
+				923E53E72C36031D00C1B8E4 /* ContentView.swift */,
+				923E53E92C36031E00C1B8E4 /* Assets.xcassets */,
+				923E53EB2C36031E00C1B8E4 /* Info.plist */,
+				923E53EC2C36031E00C1B8E4 /* Aryan.entitlements */,
+				923E53ED2C36031E00C1B8E4 /* Preview Content */,
+			);
+			path = Aryan;
+			sourceTree = "<group>";
+		};
+		923E53ED2C36031E00C1B8E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				923E53EE2C36031E00C1B8E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		923E53F72C36031E00C1B8E4 /* AryanTests */ = {
+			isa = PBXGroup;
+			children = (
+				923E53F82C36031E00C1B8E4 /* AryanTests.swift */,
+			);
+			path = AryanTests;
+			sourceTree = "<group>";
+		};
+		923E54012C36031E00C1B8E4 /* AryanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				923E54022C36031E00C1B8E4 /* AryanUITests.swift */,
+				923E54042C36031E00C1B8E4 /* AryanUITestsLaunchTests.swift */,
+			);
+			path = AryanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		923E53DF2C36031D00C1B8E4 /* Aryan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923E54082C36031E00C1B8E4 /* Build configuration list for PBXNativeTarget "Aryan" */;
+			buildPhases = (
+				923E53DC2C36031D00C1B8E4 /* Sources */,
+				923E53DD2C36031D00C1B8E4 /* Frameworks */,
+				923E53DE2C36031D00C1B8E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aryan;
+			productName = Aryan;
+			productReference = 923E53E02C36031D00C1B8E4 /* Aryan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		923E53F32C36031E00C1B8E4 /* AryanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923E540B2C36031E00C1B8E4 /* Build configuration list for PBXNativeTarget "AryanTests" */;
+			buildPhases = (
+				923E53F02C36031E00C1B8E4 /* Sources */,
+				923E53F12C36031E00C1B8E4 /* Frameworks */,
+				923E53F22C36031E00C1B8E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				923E53F62C36031E00C1B8E4 /* PBXTargetDependency */,
+			);
+			name = AryanTests;
+			productName = AryanTests;
+			productReference = 923E53F42C36031E00C1B8E4 /* AryanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		923E53FD2C36031E00C1B8E4 /* AryanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923E540E2C36031E00C1B8E4 /* Build configuration list for PBXNativeTarget "AryanUITests" */;
+			buildPhases = (
+				923E53FA2C36031E00C1B8E4 /* Sources */,
+				923E53FB2C36031E00C1B8E4 /* Frameworks */,
+				923E53FC2C36031E00C1B8E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				923E54002C36031E00C1B8E4 /* PBXTargetDependency */,
+			);
+			name = AryanUITests;
+			productName = AryanUITests;
+			productReference = 923E53FE2C36031E00C1B8E4 /* AryanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		923E53D82C36031D00C1B8E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					923E53DF2C36031D00C1B8E4 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					923E53F32C36031E00C1B8E4 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 923E53DF2C36031D00C1B8E4;
+					};
+					923E53FD2C36031E00C1B8E4 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 923E53DF2C36031D00C1B8E4;
+					};
+				};
+			};
+			buildConfigurationList = 923E53DB2C36031D00C1B8E4 /* Build configuration list for PBXProject "Aryan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 923E53D72C36031D00C1B8E4;
+			productRefGroup = 923E53E12C36031D00C1B8E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				923E53DF2C36031D00C1B8E4 /* Aryan */,
+				923E53F32C36031E00C1B8E4 /* AryanTests */,
+				923E53FD2C36031E00C1B8E4 /* AryanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		923E53DE2C36031D00C1B8E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923E53EF2C36031E00C1B8E4 /* Preview Assets.xcassets in Resources */,
+				923E53EA2C36031E00C1B8E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923E53F22C36031E00C1B8E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923E53FC2C36031E00C1B8E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		923E53DC2C36031D00C1B8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923E53E62C36031D00C1B8E4 /* AryanDocument.swift in Sources */,
+				923E53E42C36031D00C1B8E4 /* AryanApp.swift in Sources */,
+				923E53E82C36031D00C1B8E4 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923E53F02C36031E00C1B8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923E53F92C36031E00C1B8E4 /* AryanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923E53FA2C36031E00C1B8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923E54052C36031E00C1B8E4 /* AryanUITestsLaunchTests.swift in Sources */,
+				923E54032C36031E00C1B8E4 /* AryanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		923E53F62C36031E00C1B8E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 923E53DF2C36031D00C1B8E4 /* Aryan */;
+			targetProxy = 923E53F52C36031E00C1B8E4 /* PBXContainerItemProxy */;
+		};
+		923E54002C36031E00C1B8E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 923E53DF2C36031D00C1B8E4 /* Aryan */;
+			targetProxy = 923E53FF2C36031E00C1B8E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		923E54062C36031E00C1B8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		923E54072C36031E00C1B8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		923E54092C36031E00C1B8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Aryan/Aryan.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aryan/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aryan/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphonesimulator*]" = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aryan.Aryan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		923E540A2C36031E00C1B8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Aryan/Aryan.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aryan/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aryan/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphonesimulator*]" = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aryan.Aryan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		923E540C2C36031E00C1B8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aryan.AryanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aryan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aryan";
+			};
+			name = Debug;
+		};
+		923E540D2C36031E00C1B8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aryan.AryanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aryan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aryan";
+			};
+			name = Release;
+		};
+		923E540F2C36031E00C1B8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aryan.AryanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aryan;
+			};
+			name = Debug;
+		};
+		923E54102C36031E00C1B8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aryan.AryanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aryan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		923E53DB2C36031D00C1B8E4 /* Build configuration list for PBXProject "Aryan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923E54062C36031E00C1B8E4 /* Debug */,
+				923E54072C36031E00C1B8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923E54082C36031E00C1B8E4 /* Build configuration list for PBXNativeTarget "Aryan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923E54092C36031E00C1B8E4 /* Debug */,
+				923E540A2C36031E00C1B8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923E540B2C36031E00C1B8E4 /* Build configuration list for PBXNativeTarget "AryanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923E540C2C36031E00C1B8E4 /* Debug */,
+				923E540D2C36031E00C1B8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923E540E2C36031E00C1B8E4 /* Build configuration list for PBXNativeTarget "AryanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923E540F2C36031E00C1B8E4 /* Debug */,
+				923E54102C36031E00C1B8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 923E53D82C36031D00C1B8E4 /* Project object */;
+}
