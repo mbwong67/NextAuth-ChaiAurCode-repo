@@ -25,7 +25,7 @@ export async function POST(request: NextRequest){
 
         console.log("User exists");
 
-        const validPassword = await bcrypt.compare(user.password, password);
+        const validPassword = await bcrypt.compare(password, user.password);
         if(!validPassword){
             return NextResponse.json({
                 error: "Please Check your Credentials",
